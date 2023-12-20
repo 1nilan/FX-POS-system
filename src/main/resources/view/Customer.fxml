@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="749.0" prefWidth="989.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerController">
+   <children>
+      <JFXTextField fx:id="txtId" layoutX="53.0" layoutY="46.0" promptText="ID" />
+      <JFXTextField fx:id="txtName" layoutX="277.0" layoutY="46.0" promptText="Name" />
+      <JFXTextField fx:id="txtAddress" layoutX="495.0" layoutY="46.0" promptText="Address" />
+      <JFXTextField fx:id="txtSalary" layoutX="762.0" layoutY="46.0" promptText="Salary" />
+      <JFXButton fx:id="btnUpdate" layoutX="634.0" layoutY="147.0" onAction="#updateButtonOnAction" prefHeight="41.0" prefWidth="95.0" text="Update" />
+      <JFXButton fx:id="btnSave" layoutX="752.0" layoutY="147.0" onAction="#saveButtonOnAction" prefHeight="41.0" prefWidth="95.0" text="Save" />
+      <TableView fx:id="tblCustomer" layoutX="53.0" layoutY="239.0" prefHeight="419.0" prefWidth="889.0">
+        <columns>
+          <TableColumn fx:id="colId" prefWidth="201.0" text="ID" />
+          <TableColumn fx:id="colName" prefWidth="176.0" text="Name" />
+            <TableColumn fx:id="colAddress" prefWidth="190.0" text="Address" />
+            <TableColumn fx:id="colSalary" prefWidth="178.0" text="Salary" />
+            <TableColumn fx:id="colDelete" prefWidth="143.0" text="Delete" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="441.0" layoutY="681.0" onAction="#reloadButtonOnction" prefHeight="31.0" prefWidth="104.0" text="Reload" />
+   </children>
+</AnchorPane>
