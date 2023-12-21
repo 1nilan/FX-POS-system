@@ -3,9 +3,9 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane fx:id="pane" prefHeight="616.0" prefWidth="623.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardController">
    <children>
       <Button fx:id="btnCustomer" layoutX="255.0" layoutY="47.0" mnemonicParsing="false" onAction="#customerButtonOnAction" prefHeight="57.0" prefWidth="113.0" text="Customer" />
+      <Button fx:id="btnItem" layoutX="255.0" layoutY="133.0" mnemonicParsing="false" onAction="#itemButtonOnAction" prefHeight="57.0" prefWidth="113.0" text="Item" />
    </children>
 </AnchorPane>
