@@ -7,5 +7,6 @@
    <children>
       <Button fx:id="btnCustomer" layoutX="255.0" layoutY="47.0" mnemonicParsing="false" onAction="#customerButtonOnAction" prefHeight="57.0" prefWidth="113.0" text="Customer" />
       <Button fx:id="btnItem" layoutX="255.0" layoutY="133.0" mnemonicParsing="false" onAction="#itemButtonOnAction" prefHeight="57.0" prefWidth="113.0" text="Item" />
+      <Button fx:id="btnPlace" layoutX="255.0" layoutY="212.0" mnemonicParsing="false" onAction="#placeButtonOnAction" prefHeight="57.0" prefWidth="113.0" text="Place Order" />
    </children>
 </AnchorPane>
